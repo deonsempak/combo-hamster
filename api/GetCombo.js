@@ -5,7 +5,7 @@ app.get("/api/GetCombo", (req, res) => {
   const comboData = {
     combo: [
       "security_team",
-      "top_10_global_rankings",
+      "top_10_global_ranking",
       "sports_integration_0807",
     ],
   };
