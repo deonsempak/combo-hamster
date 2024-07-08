@@ -3,7 +3,11 @@ const app = express();
 
 app.get("/api/GetCombo", (req, res) => {
   const comboData = {
-    combo: ["ceo", "leaderboards", "nft_collection_launch"],
+    combo: [
+      "security_team",
+      "top_10_global_rankings",
+      "sports_integration_0807",
+    ],
   };
   res.json(comboData);
 });
